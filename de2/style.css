@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+
+/* Logo */
+#logo {
+    color: #fff;
+    font-family: verdana;
+    text-shadow: 2px 2px 8px rgb(255, 166, 0);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Nav */
+.myNav{
+    width: 100%;
+    background-color: #F90;
+    overflow: auto;
+}
+
+.myNav a{
+    float: left;
+    width: 14%;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 5px;
+    text-align: center;
+}
+
+.myNav a:hover:not(.active){
+    background-color: rgb(255, 115, 0);
+    text-decoration: none;
+    color: #fff;
+}
+
+/* background image */
+#bgImage{
+    width: 100%;
+}
+
+/* footer */
+footer{
+    font-size: 20px;
+}

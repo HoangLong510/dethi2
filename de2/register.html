@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./data.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- Logo -->
+        <div id="logo">LOGO</div>
+
+        <!-- Nav -->
+        <div class="myNav">
+            <a href="./index.html">Home</a>
+            <a href="#Untilities">Untilities</a>
+            <a href="#Share">Share</a>
+            <a href="#Knowledge">Knowledge</a>
+            <a href="./register.html">SignUp</a>
+            <a href="#SignIn">SignIn</a>
+            <a href="#About us">About us</a>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <h2 style="text-align: center;">Register Form</h2>
+            <form onsubmit="return check();">
+                <div class="form-group">
+                    <label>Full Name:</label>
+                    <input type="text" class="form-control" placeholder="Enter full name" id="txtName">
+                </div>
+
+                <div class="form-group">
+                    <label>Last Name:</label>
+                    <input type="text" class="form-control" placeholder="Enter last name" id="txtLastName">
+                </div>
+
+                <label>Country:</label>
+                <select class="form-control" id="vCountry">
+                    <option value="">--</option>
+                    <option value="Vietnam">Vietnam</option>
+                    <option value="Laos">Laos</option>
+                    <option value="Cambodia">Cambodia</option>
+                    <option value="Thailand">Thailand</option>
+                </select>
+
+                <br>
+                <label class="radio-inline">
+                    <input type="radio" name="gioitinh" value="Male" checked>Male
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="gioitinh" value="Female">Female
+                </label>
+                <p>
+
+                <div class="form-group">
+                    <label>Email:</label>
+                    <input type="text" class="form-control" placeholder="Enter email" id="txtMail">
+                </div>
+
+                <div class="form-group">
+                    <label>Phone:</label>
+                    <input type="text" class="form-control" placeholder="Enter Telephone" id="txtPhone">
+                </div>
+
+                <button type="submit" class="btn btn-default" style="background-color: blue; color: #fff;">Register</button>
+                <button type="reset" class="btn btn-default">Reset</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        &copy; By Me. All right reversed
+    </footer>
+</body>
+
+</html>
